@@ -66,7 +66,7 @@ QuestDoorAction = {
 		}
 	},
 	-- Secret library quest door
-	[Storage.TheSecretLibrary.Mota] = {
+	[Storage.Kilmaresh.First.Title1] = {
 		itemId = false,
 		itemPos = {
 			{x = 33208, y = 32071, z = 8},
@@ -214,7 +214,7 @@ QuestDoorAction = {
 		itemId = false,
 		itemPos = {{x = 32688, y = 31543, z = 9}}
 	},
-	[Storage.CultsOfTibia.Barkless.TarAccessDoor] = {
+	[Storage.Kilmaresh.First.Title1] = {
 		itemId = false,
 		itemPos = {
 			{x = 32747, y = 31462, z = 8},
@@ -336,8 +336,8 @@ QuestDoorAction = {
 			{x = 33060, y = 31529, z = 12},
 			{x = 33061, y = 31529, z = 12},
 			{x = 33062, y = 31529, z = 12},
-			{x = 33060, y = 31529, z = 14},
-			{x = 33061, y = 31529, z = 14},
+			{x = 33060, y = 31529, z = 12},
+			{x = 33061, y = 31529, z = 12},
 			{x = 33062, y = 31529, z = 14}
 		}
 	},
@@ -375,7 +375,7 @@ QuestDoorAction = {
 		itemId = false,
 		itemPos = {{x = 32316, y = 32264, z = 8}}
 	},
-	[Storage.TheInquisition.RewardDoor] = {
+	[Storage.TheInquisition.Mission07] = {
 		itemId = false,
 		itemPos = {{x = 32320, y = 32258, z = 9}}
 	},
@@ -663,7 +663,7 @@ QuestDoorAction = {
 		itemPos = {{x = 32761, y = 32630, z = 7}}
 	},
 	-- Kilmaresh doors
-	[Storage.Kilmaresh.First.Title] = {
+	[Storage.Kilmaresh.First.Title1] = {
 		itemId = false,
 		itemPos = {
 			{x = 33959, y = 31501, z = 4},
@@ -671,24 +671,6 @@ QuestDoorAction = {
 			{x = 33371, y = 31349, z = 4},
 			{x = 33376, y = 31335, z = 3}
 		}
-	},
-	-- The Rookie Guard Quest - Mission 07: Attack!
-	-- The library vault door
-	[Storage.TheRookieGuard.LibraryDoor] = {
-		itemId = false,
-		itemPos = {{x = 32090, y = 32156, z = 9}}
-	},
-	-- The Rookie Guard Quest - Mission 10: Tomb Raiding
-	-- The unholy crypt door
-	[Storage.TheRookieGuard.UnholyCryptDoor] = {
-		itemId = false,
-		itemPos = {{x = 32147, y = 32186, z = 9}}
-	},
-	-- The Rookie Guard Quest - Mission 12: Into The Fortress
-	-- Lower academy floor door
-	[Storage.TheRookieGuard.AcademyDoor] = {
-		itemId = false,
-		itemPos = {{x = 32109, y = 32189, z = 8}}
 	}
 }
 
