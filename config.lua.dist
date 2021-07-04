@@ -8,7 +8,7 @@ removeChargesFromRunes = true
 removeChargesFromPotions = true
 removeWeaponAmmunition = true
 removeWeaponCharges = true
-timeToDecreaseFrags = 1 * 24 * 60 * 60
+timeToDecreaseFrags = 24 * 60 * 60 * 1000
 whiteSkullTime = 15 * 60 * 1000
 stairJumpExhaustion = 2 * 1000
 experienceByKillingPlayers = false
@@ -89,6 +89,11 @@ pushDistanceDelay = 1500
 -- NOTE: unzip the map world.rar
 mapName = "otservbr"
 mapAuthor = "OTServBR"
+
+-- Party List limitations
+-- max distance in which players in party list are visible
+-- NOTE partyListMaxDistance set to 0 means no limit
+partyListMaxDistance = 30
 
 -- Custom Map
 -- NOTE: mapCustomEnabled: true = activate the map, false = disable the map
